@@ -130,7 +130,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('./images/line-img.jpg');
+    background-image: url('./line-img.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
