@@ -1,0 +1,424 @@
+
+
+.text-gra {
+    background: linear-gradient(to right, rgb(18, 194, 233), rgb(196, 113, 237), rgb(246, 79, 89));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.bg-gra {
+    background: linear-gradient(to right, rgb(18, 194, 233), rgb(196, 113, 237), rgb(246, 79, 89));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+#background-dia{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to bottom left, rgb(32, 32, 32) 50% ,rgb(30, 30, 30) 50% );
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+  .sarmad-logo {
+    background: linear-gradient(to right, rgb(18, 194, 233), rgb(196, 113, 237), rgb(246, 79, 89));
+    border: 0px solid transparent; 
+    border-radius: 10px; 
+    background-clip: padding-box; 
+    padding: 5px; 
+  }
+
+.fa-envelope{
+    background: linear-gradient(to right, rgb(18, 194, 233), rgb(196, 113, 237), rgb(246, 79, 89));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.gradient-line {
+    width: 65%;
+    height: 2px; 
+    background: linear-gradient(to right, #00c6ff, #3a50f3, #be0eff, #ff0099);
+    border-radius: 2px; 
+    
+}
+
+.line-container {
+    background-color: rgb(30, 30, 30);
+    width: 100%; 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.container-right{ 
+    background: linear-gradient(to right, #00c6ff, #3a50f3, #be0eff, #ff0099);
+    border-radius: 2px;
+    width: 100%; 
+
+}
+
+.grd-line{
+    width: 35%;
+    height: 2px; 
+    background-color: rgb(30, 30, 30);
+    
+}
+
+
+
+#black-bg{
+    background-color: rgb(30, 30, 30);
+  }
+
+@media (max-width: 768px) {
+    .hide-on-small {
+      display: none;
+    }
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+  
+.menu-item {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    border-bottom: 2px solid transparent;
+}
+  
+.menu-item:hover,
+.menu-item.active {
+    color: #00c6ff;
+    border-bottom: 2px solid #00c6ff;
+}
+  
+
+.content-section {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
+}
+  
+.content-section.active {
+    display: block;
+}
+  
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+.moving-background {
+    height: 60vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/line-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: 0 0;
+    animation: moveBackground 20s linear infinite; 
+}
+  
+@keyframes moveBackground {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+}
+
+
+
+.icon-to-text {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  rgb(82, 81, 81);    
+    overflow: hidden;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.icon-to-text:hover {
+    background-color: rgb(32, 32, 32); 
+}
+  
+  
+.icon {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    
+}
+  
+  
+  
+.icon-to-text:hover .icon {
+    opacity: 0; 
+    transform: translateY(-20px); 
+}
+  
+  
+.text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(20px); 
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+}
+  
+.icon-to-text:hover .text {
+    opacity: 1; 
+    transform: translateY(0);
+}
+
+.featured-client{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+
+
+
+.carousel-container {
+    padding: 30px 0;
+}
+
+.testimonial-slide {
+    background: rgb(39, 39, 39);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    
+}
+
+.testimonial-slide:hover {
+    transform: translateY(-10px);
+}
+
+
+
+
+
+  
+
+  
+
+.form-control {
+    background-color: #1e1e1e; 
+    color: #fff; 
+    border:none;
+    border-bottom: 1px solid #444; 
+    border-radius: 0;
+}
+
+.form-control:focus {
+    box-shadow: none; 
+    border-color:none; 
+}
+
+.btn-send {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.btn-send:hover {
+    background-color: linear-gradient(to right, rgb(18, 194, 233), rgb(196, 113, 237), rgb(246, 79, 89));;
+    border-color: #00c6ff;
+    color: #fff;
+}
+
+.social a{
+    text-decoration: none;
+}
+
+.effect1 {
+    font-size: 20px; 
+    transition: transform 0.3s ease, color 0.3s ease; 
+  }
+
+  
+  .effect1:hover {
+    transform: scale(1.2);   
+}
+
+
+
+#loader {
+    width: 100vw;
+    height: 100vh;
+    background-color: #232222;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+  }
+
+  
+  #loader div {
+    width: 8vmax;
+    height: 8vmax;
+    border-right: 4px solid #ffffff;
+    border-radius: 100%;
+    animation: spinRight 800ms linear infinite;
+    position: relative;
+  }
+
+  
+  #loader div:before, #loader div:after {
+    content: '';
+    width: 6vmax;
+    height: 6vmax;
+    display: block;
+    position: absolute;
+    top: calc(50% - 3vmax);
+    left: calc(50% - 3vmax);
+    border-left: 3px solid #ffffff;
+    border-radius: 100%;
+    animation: spinLeft 800ms linear infinite;
+  }
+
+  #loader div:after {
+    width: 4vmax;
+    height: 4vmax;
+    top: calc(50% - 2vmax);
+    left: calc(50% - 2vmax);
+    border: 0;
+    border-right: 2px solid #ffffff;
+    animation: none;
+  }
+
+  /* Keyframes for spinning */
+  @keyframes spinLeft {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(720deg); }
+  }
+
+  @keyframes spinRight {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0deg); }
+  }
+
+ 
+  body.loaded #loader {
+    display: none;
+  }
+
+
+
+
+
+
+  .progress-circle-container {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+      
+    }
+
+    /* SVG circle */
+    .progress-circle {
+      transform: rotate(-90deg); /* Rotate to make the progress start from the top */
+      width: 60px;
+      height: 60px;
+    }
+
+    /* Circle background */
+    .progress-circle-bg {
+      fill: none;
+      stroke: #444; /* Background circle color */
+      stroke-width: 5;
+    }
+
+    /* Circle progress */
+    .progress-circle-fg {
+      fill: none;
+      stroke: #00c6ff; /* Progress circle color */
+      stroke-width: 3;
+      stroke-dasharray: 157; /* Circumference of the circle */
+      stroke-dashoffset: 157; /* Start hidden */
+      transition: stroke-dashoffset 0.2s ease;
+    }
+
+    @media (max-width: 576px) {
+        .progress-circle-container {
+          display: none; /* Hide on small screens */
+        }
+      }
+
+/* Initial styles for fade-in and slide-in */
+.fade-in {
+  opacity: 0;
+  transition: opacity 2s ease-in;
+}
+
+.slide-in {
+  transform: translateX(-100%);
+  transition: transform 1.5s ease-out;
+}
+
+/* Optional: For triggering animations programmatically */
+.fade-in.active {
+  opacity: 1;
+}
+
+.slide-in.active {
+  transform: translateX(0);
+}
+
+
+
+
+#text-rotator {
+  background: linear-gradient(to right, rgb(18, 194, 233), rgb(196, 113, 237), rgb(246, 79, 89));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}

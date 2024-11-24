@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css">
+
+
+  <link rel="stylesheet" href="./style.css" />
+
+</head>
+
+<body id="black-bg" class="text-white">
+
+  <div id="loader">
+    <div></div>
+  </div>
+
+  <section id="nav">
+    <div class="row m-0 p-0" style="position: fixed; top: 0; width: 100%; z-index: 1000; background-color: rgb(32, 32, 32);">
+      <nav class="container navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand text-white col-lg-6"><img src="./header-logo.png" alt="" height="20px"></a>
+  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation" >
+            <span class="fa-solid fa-bars-staggered" style="color: white;"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item px-4">
+                <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link active text-white" aria-current="page" href="#services">Services</a>
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link active text-white" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link active text-white" aria-current="page" href="#testimonials">Testimonials</a>
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link active text-white" aria-current="page" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <section id="background-dia" class="d-flex align-items-center" style="min-height: 80vh;">
+    <div class="container" id="home">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4 text-center fade-in">
+          <img class="img-fluid rounded-circle sarmad-logo" src="./images/sarmad.jpg" alt="Profile"
+            style="height: 300px;">
+        </div>
+        <div class="col-lg-8 col-md-12 d-flex fade-in" style="align-items: center;">
+          <p class="sarmad-text" style="font-size: 2rem;">Hello, My name is Sarmad and I am a Solution Architect.
+            Helping businesses solve their problems with technology. My specialties include <span id="text-rotator"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="black-bg" class="py-5">
+    <div class="container">
+      <div class="row ">
+
+        <div class="col-lg-6 text-white d-flex" style="justify-content: space-between; align-items: center;">
+          <div class="d-flex" style=" align-items: center; justify-content:center">
+            <div class="#" style="font-size: 50px;">15</div>
+            <div class=" col-lg-5 col-sm-12 px-3" style=" font-size: 0.8rem; color: rgb(130, 128, 128);">YEARS OF
+              EXPERIENCE</div>
+          </div>
+
+
+          <div class=" d-flex" style=" align-items: center; justify-content:center">
+            <div class="#" style="font-size: 50px;">513</div>
+            <div class=" col-lg-6 col-sm-12 px-3" style=" font-size: 0.7rem; color: rgb(130, 128, 128);">PROJECTS
+              COMPLETED IN LAST DECADE</div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-6 text-white text-end d-flex" style="justify-content: flex-end; align-items: center;">
+          <div class="hide-on-small">
+            <p style="font-size: 0.8rem; color: rgb(130, 128, 128);">GET IN TOUCH</p>
+            <a>contact@sarmad.me</a>
+          </div>
+          <div class="px-3 hide-on-small effect1 "><i class="fa-regular fa-envelope fa-2x"></i></div>
+        </div>
+      </div>
+
+
+
+    </div>
+    <div class="line-container">
+      <div class="gradient-line my-5"></div>
+    </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="row p-0 m-0 mb-5">
+      <div class="col text-center effect1" style="font-size: 20px; justify-content: center;">What I DO?</div>
+      <div class="text-gra text-center mb-5" style="font-size: 3rem;"> I am one man product <br> developer ninja</div>
+    </div>
+  </section>
+
+  <section id="black-bg">
+    <div class="container slide-in">
+      <div class="row" style="min-height: 500px">
+
+        <div class="col-lg-4 col-md-12 col-sm-12 effect1">
+          <div class="card"
+            style="height: 20rem; width: 100%; background-color:rgb(35, 35, 35); justify-content: center; align-items: center;">
+            <div class="text-white text-center">
+              <i class="fa-solid fa-bolt fs-3 text-gra pb-2"></i>
+              <h6 class="p-2">Server Architecture</h6>
+              <p class="p-0" style="color:  rgb(130, 128, 128);">Design and deploy scalable <br> server architecture for
+                any needs</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 d-flex pt-3 effect1" style="align-items: center;">
+          <div class="card text-center "
+            style="height: 20rem; width: 100%; justify-content: center; align-items: center;">
+            <i class="fa-solid fa-mobile-screen p-2 fs-3 text-gra"></i>
+            <h6 class="p-2">Web & App Development</h6>
+            <p class="p-0" style="color:  rgb(130, 128, 128);">Responsive websites and cross <br> platform mobile app
+              <br> development</p>
+          </div>
+
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 d-flex pt-3 effect1" style="align-items: flex-end;">
+          <div class="card text-center"
+            style="height: 20rem; width: 100%; background-color:rgb(35, 35, 35); justify-content: center; align-items: center;">
+            <i class="fa-solid fa-mobile-screen p-2 fs-3 text-gra"></i>
+            <h6 class="p-2 text-white">Backend Development</h6>
+            <p class="p-0" style="color:  rgb(130, 128, 128);">Backend development for web <br>and mobile applications
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="black-bg gr-line">
+    <div class="container-right my-5">
+      <div class="grd-line"></div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="menu">
+      <button class="menu-item active" onclick="showSection('work')">Work</button>
+      <button class="menu-item" onclick="showSection('education')">Education</button>
+      <button class="menu-item" onclick="showSection('research')">Research</button>
+    </div>
+
+
+    <div id="work" class="content-section active">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-lg-4 col-sm-12 p-3">
+            <h6>Studio98</h6>
+            <p style="color: rgb(130, 128, 128)">2019-Now</p>
+          </div>
+          <div class="col-lg-8 col-sm-12 p-3">
+            <h6>VP of Custom Development</h6>
+            <p style="color: rgb(130, 128, 128);line-height: 2rem; font-size: 1rem;">Working at Studio98 as VP of Custom
+              Development, managing their SaaS applications and custom development.
+              Contributing my love for technology and gearing the team to utilize my experience in the industry to help
+              people make their business successful.
+              My responsibility is to design and execute best development plans using cutting edge technologies and
+              practices.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-sm-12 p-3">
+            <h6>Eercast Inc</h6>
+            <p style="color: rgb(130, 128, 128)">2016 - 2019</p>
+          </div>
+          <div class="col-lg-8 col-sm-12 p-3">
+            <h6>Cheif Technology Officer</h6>
+            <p style="color: rgb(130, 128, 128);line-height: 2rem; font-size: 1rem;">Worked with Eercast Inc on their
+              live streaming marketplace "SellCast". It is revolutionary idea to sell anything in realtime with the help
+              live video streaming. My core responsibility is to provide assistance in solution building, development of
+              mobile applications and websites, design system architecture, maintain and configure servers, provide low
+              latency live video streaming solution and explore new tools and technologies to get SellCast on top
+              charts.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-sm-12 p-3">
+            <h6>Freelance Developer</h6>
+            <p style="color: rgb(130, 128, 128)">2009-Now</p>
+          </div>
+          <div class="col-lg-8 col-sm-12 p-3">
+            <h6>Freelance Developer</h6>
+            <p style="color: rgb(130, 128, 128);line-height: 2rem; font-size: 1rem;">Working as a freelance programmer
+              on oDesk, vWorker and Freelancer. My major areas of working are websites, desktop applications and mobile
+              development. I have a very good reputation among my clients and I am known for handling short deadlines
+              efficiently and providing quality work up to their satisfaction.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-sm-12 p-3">
+            <h6>Chillax Corp</h6>
+            <p style="color: rgb(130, 128, 128)">2015 - 2017</p>
+          </div>
+          <div class="col-lg-8 col-sm-12 p-3">
+            <h6>General Manager, App Development</h6>
+            <p style="color: rgb(130, 128, 128);line-height: 2rem; font-size: 1rem;">Worked with Chillax as a freelance
+              programmer. Chillax is KSA based company for iPhone and Android app development. My contribution there was
+              AidMaid (a personal assistant for emergency) for iPhone and Android from design to launch. My core
+              responsibilities were serving as a development advisor and provide development help on their different
+              projects.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-sm-12 p-3">
+            <h6>www.WebDynamics.ws</h6>
+            <p style="color: rgb(130, 128, 128)">2015 - 2017</p>
+          </div>
+          <div class="col-lg-8 col-sm-12 p-3">
+            <h6>Web Programmer</h6>
+            <p style="color: rgb(130, 128, 128);line-height: 2rem; font-size: 1rem;">Worked with Web Dynamics as a lead
+              programmer on couple of website projects. Responsibilities include implementing backend to their web
+              application using ASP .NET and SQL Server. Major projects are Kip America (kipamerica.com), Azon Equipment
+              (azonequipment.com) and SCP Software (scpsoftware.com).</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-sm-12 p-3">
+            <h6>Display Power</h6>
+            <p style="color: rgb(130, 128, 128)">2008 - 2009</p>
+          </div>
+          <div class="col-lg-8 col-sm-12 p-3">
+            <h6>Web Programmer</h6>
+            <p style="color: rgb(130, 128, 128);line-height: 2rem; font-size: 1rem;">Create, update and maintain
+              websites for DisplayPower.com.pk and ZiaAssociates.com. pk, using CSS, HTML, JavaScript, XML and ASP .NET.
+              Provided technical support for usability issues and critical site problems.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="education" class="content-section">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-lg-4 col-sm-12 p-3">
+            <h6>LUMS, Lahore</h6>
+            <p style="color: rgb(130, 128, 128)">2012 - 2014</p>
+          </div>
+          <div class="col-lg-8 col-sm-12 p-3">
+            <h6>Computer Science, Masters of Science</h6>
+            <p style="color: rgb(130, 128, 128);line-height: 2rem; font-size: 1rem;">Lahore University of Management and
+              Sciences, Lahore, Pakistan
+              <br>
+              <b>GPA:</b> 3.65/4.0
+              <br>
+              <b>Dissertation:</b> Incremental symbolic execution using ranged analysis in KLEE (<a
+                style="color: #00c6ff" href="https://sarmad.me/static/pdf/docs/incremental-ase14.pdf">pdf</a> | <a
+                style="color: #00c6ff" href="https://sarmad.me/static/pdf/slides/incremental-slides.pdf">slides</a>)
+              <br>
+              <b>Advisor:</b> <a style="color: #00c6ff" href="https://dblp.uni-trier.de/pid/22/7567.html">Junaid Haroon
+                Siddiqui</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-sm-12 p-3">
+            <h6>CIIT, Lahore</h6>
+            <p style="color: rgb(130, 128, 128)">2008 - 2012</p>
+          </div>
+          <div class="col-lg-8 col-sm-12 p-3">
+            <h6>Computer Science, Bachelors of Science</h6>
+            <p style="color: rgb(130, 128, 128);line-height: 2rem; font-size: 1rem;">Comsats Institute of Information
+              Technology, Lahore - Pakistan
+              <br>
+              <b>GPA</b>: 3.87/4.0
+              <br>
+              <b>Dissertation:</b> Implementation of Autonomous Quadrotor with Dynamic Path Planning and Adaptive
+              Control System (<a style="color: #00c6ff" href="https://sarmad.me/static/pdf/docs/shaheen.pdf">pdf</a> |
+              <a style="color: #00c6ff" href="https://sarmad.me/static/pdf/slides/shaheen-slides.pdf"></a> slides)
+              <b>Advisor:</b> <a style="color: #00c6ff" href="https://dblp.uni-trier.de/pid/77/247.html">Tauseef
+                Gulrez</a> and <a style="color: #00c6ff" href="https://dblp.uni-trier.de/pid/69/1903.html">Imran
+                Raza</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+    <div id="research" class="content-section">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-lg-4 col-sm-12 p-3">
+            <p style="color: rgb(130, 128, 128)">2014</p>
+          </div>
+          <div class="col-lg-8 col-sm-12 p-3">
+            <p style="color: rgb(130, 128, 128);line-height: 2rem; font-size: 1rem;">S. Makhdoom, M.A. Khan, J.H.
+              Siddiqui. Incremental Symbolic Execution for Automated Test Suite Maintenance.
+              29th IEEE/ACM International Conference on Automated Software Engineering (ASE 2014)
+              <a style="color: #00c6ff" href="https://sarmad.me/static/pdf/docs/incremental-ase14.pdf">pdf </a> | <a
+                style="color: #00c6ff" href="https://sarmad.me/static/pdf/slides/incremental-slides.pdf"> </a>slides
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="doted-image" class="moving-background">
+
+    <div class="container">
+      <div class="row align-items-center ">
+        <div class="col-lg-8 col-md-12 text-container text-center text-lg-start">
+          <p class="small-heading pt-5" style="color: #00c6ff">LET'S TALK</p>
+          <h1 class="main-heading" style="font-size: 80px;">
+            ABOUT YOUR <br>
+            <span class="bg-gra p-1">NEXT PROJECT</span>
+          </h1>
+        </div>
+        <div class="col-lg-4 col-md-12 d-flex justify-content-lg-start justify-content-center mt-3 mt-lg-0 effect1">
+          <button type="submit" class="btn btn-send">Get In touch</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="black-bg" class="d-flex align-items-center" style="min-height: 60vh;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 featured-client">
+          <div class="text-gra" style="font-size: 5rem;">Featured Clients</div>
+          <div class="p-2" style="color: rgb(130, 128, 128);line-height: 1.5rem;">15 years of experience and few long
+            term clients</div>
+        </div>
+        <div class="col-lg-8 d-flex" style="flex-wrap: wrap;">
+          <div class="icon-to-text m-3">
+            <div class="icon"><img class="img-fluid p-3" src="./images/studio98.png" alt=""></div>
+            <div class="text">
+              <p>Studio98.com</p>
+            </div>
+          </div>
+          <div class="icon-to-text m-3">
+            <div class="icon"><img class="img-fluid p-3" src="https://sarmad.me/static/clients/eercast.png" alt="">
+            </div>
+            <div class="text">
+              <p>eercast.com</p>
+            </div>
+          </div>
+          <div class="icon-to-text m-3">
+            <div class="icon"><img class="img-fluid p-3" src="https://sarmad.me/static/clients/punjab.png" alt=""></div>
+            <div class="text">
+              <p>punjab.com</p>
+            </div>
+          </div>
+          <div class="icon-to-text m-3">
+            <div class="icon"><img class="img-fluid p-3" src="https://sarmad.me/static/clients/tokeet.png" alt=""></div>
+            <div class="text">
+              <p>tokeet.com</p>
+            </div>
+          </div>
+          <div class="icon-to-text m-3">
+            <div class="icon"><img class="img-fluid p-3" src="https://sarmad.me/static/clients/chillax.png" alt="">
+            </div>
+            <div class="text">
+              <p>chillax.io</p>
+            </div>
+          </div>
+          <div class="icon-to-text m-3">
+            <div class="icon"><img class="img-fluid p-3" src="https://sarmad.me/static/clients/kip.png" alt=""></div>
+            <div class="text">
+              <p>kip.com</p>
+            </div>
+          </div>
+          <div class="icon-to-text m-3">
+            <div class="icon"><img class="img-fluid p-3" src="https://sarmad.me/static/clients/be.png" alt=""></div>
+            <div class="text">
+              <p>buildingandearth.com</p>
+            </div>
+          </div>
+          <div class="icon-to-text m-3">
+            <div class="icon"><img class="img-fluid p-3" src="https://sarmad.me/static/clients/wd.png" alt=""></div>
+            <div class="text">
+              <p>webdynamics.ws</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="black-bg">
+    <div class="line-container">
+      <div class="gradient-line"></div>
+    </div>
+
+  </section>
+
+  <section id="testimonials">
+    <div class="row py-5 my-5 mx-0 px-0">
+      <div class="col text-center effect1" style="font-size: 20px; justify-content: center;">TESTIMONIALS</div>
+      <div class="text-gra text-center" style="font-size: 3rem;"> I love my clients from all <br> over the world</div>
+    </div>
+  </section>
+
+
+  <section id="black-bg">
+
+  </section>
+
+  <section>
+
+    <div class="container carousel-container">
+      <div class="slick-slider">
+
+        <div class="testimonial-slide mx-3 d-flex" style="height: 20rem; align-items: center;">
+
+          <div class="testimonial-author">
+            <h6 class="text-gra">Terry Llewellyn</h6>
+            <span>AsiaDivers</span>
+          </div>
+          <p class="m-4 p-3" style="font-size: 1rem; border-left: 1px solid rgb(130, 128, 128);">This programmer is a
+            pleasure to work with and I will be using him in the future.</p>
+        </div>
+
+        <div class="testimonial-slide mx-3 d-flex" style="height: 20rem; align-items: center;">
+
+          <div class="testimonial-author">
+            <h6 class="text-gra">Husam Yaghi</h6>
+            <span>Chillax Corp</span>
+          </div>
+          <p class="m-4 p-3" style="font-size: 1rem; border-left: 1px solid rgb(130, 128, 128);">Outstanding sincere
+            honest developer who always makes suggestions. He delivered before I even made a deposit. Never late and
+            never cheats.</p>
+        </div>
+
+        <div class="testimonial-slide mx-3 d-flex" style="height: 20rem; align-items: center;">
+
+          <div class="testimonial-author">
+            <h6 class="text-gra">Chris Hales</h6>
+            <span>Web Dynamics</span>
+          </div>
+          <p class="m-4 p-3" style="font-size: 1rem; border-left: 1px solid rgb(130, 128, 128);">Thank you Sarmad for
+            your hard work and continued support. Your skills in java, asp, and css are truly amazing.</p>
+        </div>
+
+        <div class="testimonial-slide mx-3 d-flex" style="height: 20rem; align-items: center;">
+
+          <div class="testimonial-author">
+            <h6 class="text-gra">Adam Philler</h6>
+            <span>Freelancer</span>
+          </div>
+          <p class="m-4 p-3" style="font-size: 1rem; border-left: 1px solid rgb(130, 128, 128);">Great contractor, App
+            was designed the way I asked with all the updated added. Very quick with emails and easy to work with.</p>
+        </div>
+
+        <div class="testimonial-slide mx-3 d-flex" style="height: 20rem; align-items: center;">
+
+          <div class="testimonial-author">
+            <h6 class="text-gra">Loretta Lancaster</h6>
+            <span>JustOrderThemOnline</span>
+          </div>
+          <p class="m-4 p-3" style="font-size: 1rem; border-left: 1px solid rgb(130, 128, 128);">This guy is worth
+            every penny and I am very happy to do business with him.</p>
+        </div>
+
+
+      </div>
+    </div>
+    <section id="black-bg gr-line">
+      <div class="container-right my-5">
+        <div class="grd-line"></div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="row py-5 my-5 mx-0">
+        <div class="col text-center effect1" style="font-size: 20px; justify-content: center;">CONTACT US</div>
+        <div class="text-gra text-center" style="font-size: 3rem;"> Let’s Get in Touch And Make <BR> Magic Together.
+        </div>
+      </div>
+    </section>
+
+
+    <section id="info-forum">
+      <div class="container form-container text-white">
+        <form>
+          <div class="row mb-4">
+
+            <div class="col-md-6">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" id="name" class="form-control">
+            </div>
+
+
+            <div class="col-md-6">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" class="form-control">
+            </div>
+          </div>
+
+
+          <div class="mb-4">
+            <label for="message" class="form-label">Message</label>
+            <textarea id="message" class="form-control" rows="5"></textarea>
+          </div>
+
+
+          <button type="submit" class="btn btn-send">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="black-bg">
+      <div class="container-fluid p-0 my-5" style="height: 150px;">
+        <div class="d-flex " style="justify-content: center;">
+          <div class="social">
+            <a class="" href="https://www.facebook.com/sarmadmakhdoom" target="_blank"><i
+                class="text-gra fab fa-facebook-f fs-3 p-3 mx-2 effect1 "
+                style="border: 1px solid rgb(110, 109, 109); border-radius: 50%; width: 3.6rem;"></i>
+            </a><a href="https://twitter.com/sarmadmakhdoom" target="_blank"><i
+                class="text-gra fab fa-twitter fs-3 p-3 mx-2 effect1 "
+                style="border: 1px solid rgb(110, 109, 109); border-radius: 50%;"></i></a>
+            <a href="https://www.linkedin.com/in/sarmadmakhdoom" target="_blank"><i
+                class="text-gra fab fa-linkedin fs-3 p-3 mx-2 effect1 "
+                style="border: 1px solid rgb(110, 109, 109); border-radius: 50%;"></i>
+            </a><a href="https://github.com/sarmadmakhdoom/" target="_blank"><i
+                class="text-gra fab fa-github fs-3 p-3 mx-2 effect1 "
+                style="border: 1px solid rgb(110, 109, 109); border-radius: 50%;"></i></a>
+          </div>
+        </div>
+        <div class="row p-0 mx-0 my-5 justify-content-center">© 2024, Sarmad Makhdoom</div>
+      </div>
+
+    </section>
+
+    <section>
+      <div class="progress-circle-container">
+        <svg class="progress-circle" viewBox="0 0 50 50">
+          <circle class="progress-circle-bg" cx="25" cy="25" r="22"></circle>
+          <circle class="progress-circle-fg" cx="25" cy="25" r="22"></circle>
+        </svg>
+      </div>
+    </section>
+
+    
+    <script id="progress-circle">
+
+      const progressCircle = document.querySelector('.progress-circle-fg');
+      const circleLength = progressCircle.getTotalLength();
+
+
+      progressCircle.style.strokeDasharray = circleLength;
+      progressCircle.style.strokeDashoffset = circleLength;
+
+
+      window.addEventListener('scroll', () => {
+        const scrollTop = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const scrollPercent = scrollTop / docHeight;
+        const drawLength = circleLength * (1 - scrollPercent);
+
+
+        progressCircle.style.strokeDashoffset = drawLength;
+      });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.slick-slider').slick({
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          dots: true,
+          arrows: false,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1
+              }
+            }
+          ]
+        });
+      });
+    </script>
+  </section>
+
+  <script>
+    function showSection(sectionId) {
+      const sections = document.querySelectorAll('.content-section');
+      sections.forEach(section => section.classList.remove('active'));
+      const buttons = document.querySelectorAll('.menu-item');
+      buttons.forEach(button => button.classList.remove('active'));
+      document.getElementById(sectionId).classList.add('active');
+      event.target.classList.add('active');
+    }
+  </script>
+  <script id="preloader">
+
+    window.addEventListener("load", function () {
+      setTimeout(() => {
+        document.body.classList.add("loaded");
+        document.getElementById("content").style.display = "block";
+      }, 1000);
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const elements = document.querySelectorAll('.fade-in');
+    elements.forEach((el) => {
+        el.style.opacity = 0;
+        el.style.transition = "opacity 2s ease-in";
+        setTimeout(() => {
+            el.style.opacity = 1;
+        }, 500); // Add delay for visual effect
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const elements = document.querySelectorAll('.slide-in');
+    elements.forEach((el) => {
+        el.style.transform = "translateX(-100%)";
+        el.style.transition = "transform 1.5s ease-out";
+        setTimeout(() => {
+            el.style.transform = "translateX(0)";
+        }, 500);
+    });
+});
+    </script>
+
+
+<script>
+ // Function to re-trigger animation
+function reTriggerAnimation(element, animationClass) {
+    element.classList.remove(animationClass); // Remove the animation class
+    void element.offsetWidth; // Trigger reflow to restart the animation
+    element.classList.add(animationClass); // Re-add the animation class
+}
+
+// Add click event listeners to navigation links
+document.querySelectorAll('navbar').forEach((link) => {
+    link.addEventListener('click', function (e) {
+        const targetId = this.getAttribute('href').replace('#', '#services'); // Extract the target section ID
+        const targetElement = document.getElementById(targetId); // Get the target element
+
+        if (targetElement && (targetId === 'services' || targetId === 'about')) {
+            e.preventDefault(); // Prevent default anchor behavior
+            targetElement.scrollIntoView({ behavior: 'smooth' }); // Scroll to the target section
+
+            // Re-trigger animations for the target section
+            if (targetElement.classList.contains('fade-in')) {
+                reTriggerAnimation(targetElement, 'fade-in');
+            }
+            if (targetElement.classList.contains('slide-in')) {
+                reTriggerAnimation(targetElement, 'slide-in');
+            }
+        }
+    });
+});
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const texts = ["DevOps", "Websites", "Mobile Apps"];
+    const targetElement = document.getElementById("text-rotator");
+    let currentIndex = 0;
+
+    function typeText(text, callback) {
+        let charIndex = 0;
+        targetElement.textContent = ""; // Clear the current text
+        const typingInterval = setInterval(() => {
+            targetElement.textContent += text[charIndex]; // Add one character at a time
+            charIndex++;
+            if (charIndex === text.length) {
+                clearInterval(typingInterval);
+                setTimeout(() => callback(), 1000); // Pause before removing the text
+            }
+        }, 100); // Typing speed
+    }
+
+    function deleteText(callback) {
+        const deletingInterval = setInterval(() => {
+            targetElement.textContent = targetElement.textContent.slice(0, -1); // Remove one character at a time
+            if (targetElement.textContent.length === 0) {
+                clearInterval(deletingInterval);
+                callback();
+            }
+        }, 50); // Deleting speed
+    }
+
+    function cycleTexts() {
+        typeText(texts[currentIndex], () => {
+            deleteText(() => {
+                currentIndex = (currentIndex + 1) % texts.length; // Move to the next text
+                cycleTexts(); // Repeat the cycle
+            });
+        });
+    }
+
+    cycleTexts(); // Start the cycle
+});
+</script>
+</body>
+
+</html>
